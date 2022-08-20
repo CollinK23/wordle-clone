@@ -1,7 +1,7 @@
 import pygame
 import random
-from Assets.constants import WIDTH, HEIGHT, GREEN, YELLOW, WHITE, BLACK
-from Assets.UI import Board, FONT
+from Assets.constants import WIDTH, HEIGHT, GREEN, YELLOW, BLACK
+from Assets.UI import Board
 pygame.init()
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -66,7 +66,7 @@ def letter_check(real_word, entry_field, turn, guess, word_in_dict):
 
 
 def main():
-    words = open("C:/Users/kimba/wordguess/five_letters.csv")
+    words = open("C:/Users/kimba/wordguess/Assets/five_letters.csv")
     words_list = []
     for row in words:
         transformed_row = row.replace(",", "")
