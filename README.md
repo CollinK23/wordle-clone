@@ -14,7 +14,7 @@ Guess the 5-letter word in six attempts
 - pygame module
 
 ## Game Execution
-Download and run gamemain.exe and assets folder
+Download main.py, assets folder, and run from terminal window or text editor
 
 ## Screenshot
 ![Play_screen](https://raw.githubusercontent.com/CollinK23/wordle-clone/master/images/Capture1.PNG)
